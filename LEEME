@@ -1,0 +1,39 @@
+TicTacDroide Theme Template v0.1
+#################################################
+ 
+Licencia:
+-------------------------------------------------
+/* Este archivo léeme ha sido prácticamente copiado y pegado del de
+ * AnderWeb. Así que respetaré sus términos de su licencia, que dice:
+ * Este programa es software libre. Se trata sin ninguna garantía, en
+ * la medida permitida por la ley aplicable. Puedes redistribuirlo y/o
+ * modificarlo bajo los términos de la Do What The Fuck You Want
+ * To Public License, Version 2, según publicada por Sam Hocevar. Ver
+ * http://sam.zoy.org/wtfpl/COPYING para más detalles. */
+
+Instrucciones de uso:
+-------------------------------------------------
+1.-Cargar la plantilla en Eclipse:
+	1.a-En Eclipse, selecciona new android project
+	1.b-En la pantalla de new proyect, selecciona "Project from existing source" and selecciona el directorio del a plantilla del tema.
+	1.c-Clic en finish. 
+
+2.-Modifica el packagename y ruta de la app (debes cambioarlo de x.x.x a tu.paquete.nombre)
+	2.a-En Eclipse, mira en tu project explorer, clic derecho en el paquete x.x.x y selecciona "Refactor->Rename..." y sigue las instrucciones.
+
+3.-Editando el AndroidManifest.xml:
+	3.a-EDITA SÓLO el packagename Y versioncode/versionname para satisfacer tus necesidades.
+	3.c-Si eliminas/cambias el intent filter "com.sloy.tictacdroide.THEMES" y/o la categoría "android.intent.category.DEFAULT", tu tema no será visible para los usuarios de TicTacDroide.
+	3.d-Esta plantilla está preconfigurada para NO ser mostrada en la lista de aplicaciones para que los usuarios no se hinchen con iconos de temas en sus listas de aplicaciones.
+
+4.-Edita el archivo res/values/theme_config.xml según tus necesidades.
+
+5.-Edita los diferentes drawables que hay.
+	5.a-Puedes crear imágenes diferentes para diferentes estados, o reemplazar los xml de drawables con imágenes estáticas.
+	5.b-Todos los drawables que no modifiques debes borrarlos de forma que el tema pese menos.
+
+6.-Para usar una fuente personalizada en el tema, pon el archivo TTF en assets/themefont.ttf.
+    6.a-Asegúrate de que la fuente funciona, algunas fuentes granes (en tamaño de archivo) o mal codificadas pueden causar problemas.
+    6.b-Edita el parámetro de dimensión text_size si tu fuente es demasiado grande o pequeña. Por defecto 14sp
+     		
+7.-Exporta el apk desde Eclipse como cualquier otra aplicación Android.
