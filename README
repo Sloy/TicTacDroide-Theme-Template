@@ -1,0 +1,39 @@
+TicTacDroide Theme Template v0.1
+#################################################
+ 
+License:
+-------------------------------------------------
+/* This readme file has been practicaly copied and pasted from the
+ * anderweb's. So I will respect the terms of his license, which says:
+ * This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do What The Fuck You Want
+ * To Public License, Version 2, as published by Sam Hocevar. See
+ * http://sam.zoy.org/wtfpl/COPYING for more details. */
+
+Usage instructions:
+-------------------------------------------------
+1.-Load the template into eclipse:
+	1.a-On eclipse, select new android project
+	1.b-On the new project screen, select "Project from existing source" and select the theme template dir.
+	1.c-Click finish. 
+
+2.-Modify the app packagename and path (you should change if from x.x.x to your.package.name)
+	2.a-On eclipse, look into your project explorer, rightclick the x.x.x package and select "Refactor->Rename..." and follow the instructions.
+
+3.-Editing the AndroidManifest.xml:
+	3.a-EDIT ONLY the packagename AND versioncode/versionname to suit your needs.
+	3.c-If you remove/change the "com.sloy.tictacdroide.THEMES" intent filter and/or the "android.intent.category.DEFAULT" category, your theme won't be visible to TicTacDroide users.
+	3.d-This template is preconfigured to NOT show on the application drawer so users don't get bloated with theme icons on their app drawers.
+
+4.-Edit the res/values/theme_config.xml to your needs.
+
+5.-Edit the different drawables in there.
+	5.a-You can create diferent images for diferent states, or replace the drawables xml with an static image.
+	5.b-All the drawables that you don't modify should be deleted so the theme will weight less.
+
+6.-To use a custom font on your theme, put the TTF file in assets/themefont.ttf.
+    6.a-Make sure the font is working, some BIG (in filesize) fonts or bad encoded fonts can cause problems.
+    6.b-Edit the text_size dimension parameter if your font is too small or too big. Default is 14sp
+     		
+7.-Export the apk from eclipse as every other android app.
