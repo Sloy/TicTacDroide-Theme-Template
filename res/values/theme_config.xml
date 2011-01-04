@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="theme_name">TicTacTemplate name</string>
+	
+	<string name="theme_description">Here goes a long description for the Theme, info about
+	the autor, license or anyting. You can format it as seen in:
+	http://developer.android.com/intl/de/guide/topics/resources/string-resource.html#FormattingAndStyling
+	(format is not supported yet, but will be soon)</string>
+	
+	<!--  Font Settings -->
+	<color name="text_color">#000000</color>
+	<dimen name="text_size">14sp</dimen>
+	<bool name="text_bold">false</bool>
+
+</resources>
