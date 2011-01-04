@@ -27,10 +27,12 @@ Usage instructions:
 	3.d-This template is preconfigured to NOT show on the application drawer so users don't get bloated with theme icons on their app drawers.
 
 4.-Edit the res/values/theme_config.xml to your needs.
+	4.a-If you remove any property, default will be used. (Same for 5 and 6)
 
 5.-Edit the different drawables in there.
 	5.a-You can create diferent images for diferent states, or replace the drawables xml with an static image.
 	5.b-All the drawables that you don't modify should be deleted so the theme will weight less.
+	5.c-NOTE: Support for differents dpi is not ready YET. Till it is, I recomend to leave the andDensity property in the Manifest to false and use only the drawable size of the ones provided. 
 
 6.-To use a custom font on your theme, put the TTF file in assets/themefont.ttf.
     6.a-Make sure the font is working, some BIG (in filesize) fonts or bad encoded fonts can cause problems.

@@ -27,10 +27,12 @@ Instrucciones de uso:
 	3.d-Esta plantilla está preconfigurada para NO ser mostrada en la lista de aplicaciones para que los usuarios no se hinchen con iconos de temas en sus listas de aplicaciones.
 
 4.-Edita el archivo res/values/theme_config.xml según tus necesidades.
+	4.a-Si eliminas cualquier propiedad, se usará la establecida por defecto.. (Lo mismo para 5 y 6)
 
 5.-Edita los diferentes drawables que hay.
 	5.a-Puedes crear imágenes diferentes para diferentes estados, o reemplazar los xml de drawables con imágenes estáticas.
 	5.b-Todos los drawables que no modifiques debes borrarlos de forma que el tema pese menos.
+	5.c-NOTA: Soporte para diferentes dpi no está listo AÚN. Hasta que lo esté, recomiendo dejar la pripieadd andDensity en el Manifest en false y usar sólo el tamaño de drawables de los suministrados.
 
 6.-Para usar una fuente personalizada en el tema, pon el archivo TTF en assets/themefont.ttf.
     6.a-Asegúrate de que la fuente funciona, algunas fuentes granes (en tamaño de archivo) o mal codificadas pueden causar problemas.
